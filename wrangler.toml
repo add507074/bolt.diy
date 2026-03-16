@@ -1,5 +1,9 @@
-# wrangler.toml
-name = 'bolt3ziz'
+#:schema node_modules/wrangler/config-schema.json
+name = "bolt3ziz"
+compatibility_date = "2024-07-15"
+compatibility_flags = ["nodejs_compat"]
+pages_build_output_dir = "./build/client"
+
 [vars]
+NODE_VERSION = "20"
 NODE_OPTIONS = "--max-old-space-size=4096"
-NODE_VERSION = "20
